@@ -47,6 +47,7 @@ namespace dominicanIdValidator.Service
                 while (reader.Read())
                 {
                     data.Cedula = String.Format("{0}", reader["Cedula"]);
+                    data.fechaNacimiento = String.Format("{0}", reader["FechaNacimiento"]);
                     data.Nombres = String.Format("{0}", reader["Nombres"]);
                     data.Apellido1 = String.Format("{0}", reader["Apellido1"]);
                     data.Apellido2 = String.Format("{0}", reader["Apellido2"]);

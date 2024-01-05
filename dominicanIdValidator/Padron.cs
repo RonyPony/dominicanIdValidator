@@ -6,6 +6,8 @@ namespace dominicanIdValidator
     [Table("padron")]
     public class Padron
     {
+        
+
         [Key]
         public string Cedula { get; set; }
 
@@ -13,6 +15,7 @@ namespace dominicanIdValidator
         public string Apellido1 { get; set; }
         public string Apellido2 { get; set; }
         public string LugarNacimiento { get; set; }
+        public string fechaNacimiento { get; set; }
         public string IDCategoria { get; set; }
         public string IdSexo { get; set; }
         public string IdEstadoCivil { get; set; }
